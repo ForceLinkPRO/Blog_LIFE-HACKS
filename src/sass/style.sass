@@ -1,5 +1,5 @@
 @import color
-@import fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800')
 
 %display-flex
   display: -webkit-flex
@@ -8,12 +8,15 @@
   display: -o-flex
   display: flex
 
+body
+  font-family: 'Raleway', sans-serif
+  font-weight: 400
+
 header
   @extend %display-flex
   align-items: center
   justify-content: center
   background-color: $white
-  margin-top: 53px
   padding: 88px 0px 58px 0px
   
   ul
